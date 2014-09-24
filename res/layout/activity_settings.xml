@@ -22,10 +22,10 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content" >
 
-    <com.crystal.crystalota.widget.PreferenceCategory
+    <com.Crystal.CrystalOTA.widget.PreferenceCategory
         android:title="@string/settings" >
 
-        <com.crystal.crystalota.widget.ListPreference
+        <com.Crystal.CrystalOTA.widget.ListPreference
             android:key="checktime"
             android:title="@string/settings_checktime_title"
             android:summary="@string/settings_checktime_summary"
@@ -33,12 +33,12 @@
             android:entries="@array/time_notifications_entries"
             android:entryValues="@array/time_notifications_values" />
 
-        <com.crystal.crystalota.widget.CheckBoxPreference
+        <com.Crystal.CrystalOTA.widget.CheckBoxPreference
             android:key="checkgapps"
             android:title="@string/settings_checkgapps_title"
             android:summary="@string/settings_checkgapps_summary" />
 
-        <com.crystal.crystalota.widget.ListPreference
+        <com.Crystal.CrystalOTA.widget.ListPreference
             android:key="gappstype"
             android:dependency="checkgapps"
             android:title="@string/settings_gappstype_title"
@@ -46,11 +46,11 @@
             android:entries="@array/gapps_type_entries"
             android:entryValues="@array/gapps_type_values" />
 
-        <com.crystal.crystalota.widget.Preference
+        <com.Crystal.CrystalOTA.widget.Preference
             android:key="goo"
             android:title="@string/settings_goo"
             android:summary="@string/settings_login_goo" />
 
-    </com.crystal.crystalota.widget.PreferenceCategory>
+    </com.Crystal.CrystalOTA.widget.PreferenceCategory>
 
 </PreferenceScreen>
